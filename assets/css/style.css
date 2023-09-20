@@ -28,6 +28,21 @@ body {
     background-color: #525252;
 }
 
+/* -------------------------------------special margins/paddings/text */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 
 /* ---------------Heading-------------- */
 
@@ -60,7 +75,7 @@ header {
 
 .title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200px;
+    font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
@@ -121,5 +136,13 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
 
+/* ----------------footer--------------------- */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
